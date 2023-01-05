@@ -48,16 +48,71 @@ header {
     justify-content: center;
     text-align: center;
 }
+.day-section .daily-title{
+    font-weight:900;
+    font-size: 40px;
+}
 .ammount-quantity ul {
     display: flex;
     text-align: center;
     justify-content: center;
-}
-.ammount-quantity li{
-  margin-left: 20px;
-    list-style: none;
-    box-shadow: #121212;
-
    
+}
+.ammount-quantity  li{
+  margin-right: 20px;
+    list-style: none;
+    
+
+}
+#amount{
+    box-sizing: border-box;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    font-size: 25px;
+    color: #707070;
+    border-radius: 5px;
+    padding: 20px 5px;
+    color:#FF5959;
+    margin-bottom: 35px;
+
+}
+.amnt{
+    padding: 20px 5px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    /* box-shadow: #a19a9a; */
+    font-size: 25px;
+    color: #707070;
+    margin-bottom: 35px;
+}
+.daily-description{
+    color: #707070;
+    font-size: 19px;
+    font-weight: 400px;
+    margin-bottom: 50px;
+   
+}
+
+.oth-ammount{
+   color: ;
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: center;
+    margin-bottom: 30px !important;
+    border-bottom: 1px solid #DADADA
+
+}
+
+.btn-praimay2{
+    
+    justify-content: center;
+    text-align: center;
+    margin:auto ;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    padding: 16px;
+    color: white;
+    font-weight: 700;
 
 }
