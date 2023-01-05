@@ -1,0 +1,35 @@
+{
+  width: 0px;
+  height: 0px;
+}
+/* headar section */
+header {
+ background-image:linear-gradient(360deg, #121212 -26.05%, rgba(18, 18, 18, 0) 88.6%),url("../images/donation4.jpg");
+  background-repeat: no-repeat;
+ width: 100%;
+  height: 80vh; 
+  justify-content:center;
+  margin-top: -25px;
+  margin-left: -7px;
+  
+  /* background: linear-gradient(360deg, #020202f1 0%, rgba(243, 240, 237, 0.488)  100% ); */
+}
+.headar-title {
+  text-align: center;
+  color: white;
+  padding: 80px 50px 10px 50px;
+  font-weight: 700;
+}
+.headar-discription{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    
+}
+.btn-praimay{
+    background: #FF5959;
+    border-radius: 5px;
+    margin-left: 500px;
+    border: none;
+    padding: 5px;
+}
