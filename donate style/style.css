@@ -1,7 +1,14 @@
- {
-  width: 0px;
-  height: 0px;
+* {
+  /* width: 0px;
+  height: 0px; */
+  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
+
 /* headar section */
 header {
   background-image: linear-gradient(360deg, #121212 -26.05%, rgba(18, 18, 18, 0) 88.6%), url("../images/donation4.jpg");
@@ -175,40 +182,37 @@ header {
   /* font-weight: 400; */
 }
 
-
 /* news section */
-.donate-news{
-    margin: 80px;
-    margin-right: 100px;
-    
+.donate-news {
+  margin: 80px;
+  margin-right: 100px;
 }
-.donate-news-title{
-    font-weight: 900;
-    font-size: 50px;
+.donate-news-title {
+  font-weight: 900;
+  font-size: 50px;
 }
-.donate-news-summury1{
-    color: #707070;
-    font-size: 18px;
+.donate-news-summury1 {
+  color: #707070;
+  font-size: 18px;
 }
-.donate-news-summury2{
-    color: #707070;
-    font-size: 18px;
-}
-
-.donate-news1{
-    display: flex;
-    gap: 80px;
-
-}
-.donate-image1 img{
-    justify-content: right;
-    width: 400px;
-    height:400px;
-    background-size: contain;
+.donate-news-summury2 {
+  color: #707070;
+  font-size: 18px;
 }
 
-.btn-praimay3{
-    background: #ff5959;
+.donate-news1 {
+  display: flex;
+  gap: 80px;
+}
+.donate-image1 img {
+  justify-content: right;
+  width: 400px;
+  height: 400px;
+  background-size: contain;
+}
+
+.btn-praimay3 {
+  background: #ff5959;
   border-radius: 5px;
   /* justify-content: center;
   text-align: center;
@@ -220,35 +224,91 @@ header {
 }
 
 /* donate news 2 */
-/* .donate-seceond-news{
-    display: flex;
-    gap: 30px;
-} */
 
-.donate-news2{
-    margin: 80px;
-    margin-right: 100px;
-    gap: 80px;
+.donate-news2 {
+  margin: 80px;
+  margin-right: 100px;
+  gap: 80px;
 }
-.donate-news2{
-    display: flex;
+.donate-news2 {
+  display: flex;
 }
 
-.donate-image2 img{
-    justify-content: right;
-    width: 400px;
-    height:400px;
-    background-size: contain;
+.donate-image2 img {
+  justify-content: right;
+  width: 400px;
+  height: 400px;
+  background-size: contain;
 }
-.sub-contant-title{
-    font-weight: 900;
-    font-size: 50px;
+.sub-contant-title {
+  font-weight: 900;
+  font-size: 50px;
 }
-.subcontant-description1{
-    color: #707070;
-    font-size: 18px;
+.subcontant-description1 {
+  color: #707070;
+  font-size: 18px;
 }
-.subcontant-description2{
-    color: #707070;
-    font-size: 18px;
+.subcontant-description2 {
+  color: #707070;
+  font-size: 18px;
+}
+
+/* update section style */
+.our-update {
+  justify-content: center;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.update-title {
+  font-weight: 900;
+  font-size: 50px;
+}
+.update-description {
+  color: #707070;
+  font-size: 18px;
+}
+
+.submit-btn {
+  margin-left: 25%;
+  justify-content: center;
+  width: 400px;
+  box-shadow: #707070;
+  padding: 20px;
+  background: #fff4d6;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+#btn-praimary {
+  background: #ff5959;
+  border-radius: 5px;
+  /* justify-content: center;
+    text-align: center;
+    margin-left: 50%; */
+  border: none;
+  padding: 8px 30px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px 5px 5px 0px;
+}
+#Email {
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+
+  padding: 5px 60px 5px 5px;
+}
+
+/* footer  */
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 30px;
+  margin-bottom: -0px;
+}
+footer h1 {
+  color: #ff5959;
+  font-family: "Lobster";
 }
