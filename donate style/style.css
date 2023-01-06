@@ -94,12 +94,12 @@ header {
 }
 
 .oth-ammount{
-   color: ;
+   color:#707070; ;
     font-size: 18px;
     font-weight: 400px;
     text-align: center;
-    margin-bottom: 30px !important;
-    border-bottom: 1px solid #DADADA
+   margin-bottom:-5px ;
+    /* border-bottom: 1px solid #DADADA */
 
 }
 
@@ -114,5 +114,14 @@ header {
     padding: 16px;
     color: white;
     font-weight: 700;
+    margin-top: 30px;
+
+}
+#horizental-line{
+    width: 60%;
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+    /* border-radius: 1px solid black; */
 
 }
