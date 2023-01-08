@@ -239,9 +239,7 @@ header {
 .btn-praimay3 {
   background: #ff5959;
   border-radius: 5px;
-  /* justify-content: center;
-  text-align: center;
-  margin-left: 50%; */
+margin-top: 25px;
   border: none;
   padding: 16px;
   color: white;
