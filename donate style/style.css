@@ -1,6 +1,6 @@
 * {
-  /* width: 0px;
-  height: 0px; */
+ margin: 0px;
+ padding: 0px;
   font-family: "Inter", sans-serif;
   font-family: "Nunito", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -11,18 +11,17 @@
 
 /* headar section */
 header {
-  background-image: linear-gradient(360deg, #121212 -26.05%, rgba(18, 18, 18, 0) 88.6%), url("../images/donation4.jpg");
+  background-image: linear-gradient(360deg, #000000 -26.05%, rgba(18, 18, 18, 0.343) 88.6%), url("../images/donation4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 80vh;
   justify-content: center;
-  margin-top: -25px;
-  margin-left: -7px;
   margin-bottom: 100px;
+ 
 
-  /* background: linear-gradient(360deg, #020202f1 0%, rgba(243, 240, 237, 0.488)  100% ); */
+
 }
 .headar-title {
   text-align: center;
@@ -34,7 +33,7 @@ header {
 .headar-discription {
   color: white;
   text-align: center;
-  margin-top: -20px;
+  margin-bottom: 20px;
   font-size: 25px;
 }
 .btn-praimay {
@@ -42,17 +41,31 @@ header {
   border-radius: 5px;
   justify-content: center;
   text-align: center;
-  margin-left: 50%;
+ margin-left: 650px;
+ margin-top: 80px;
   border: none;
-  padding: 16px;
+  padding: 15px;
   color: white;
   font-weight: 700;
+
 }
 
 /* donate today section */
+.dot {
+  height: 500px;
+  width: 500px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: ;
+  margin-bottom: -500px;
+  z-index: 1;
+}
 .day-section {
+  position: ;
   justify-content: center;
   text-align: center;
+  z-index: ;
 }
 .day-section .daily-title {
   font-weight: 900;
@@ -92,6 +105,14 @@ header {
   font-size: 19px;
   font-weight: 400px;
   margin-bottom: 50px;
+}
+.amnt:hover{
+  color:rgb(160, 26, 158);
+  background-color:blue;
+  padding: 0px 5px 5px 5px;
+  border-radius: 10px;
+  transition: 5ms;
+  transform: scale(x);
 }
 
 .oth-ammount {
@@ -160,6 +181,10 @@ header {
   padding: 30px;
   background: rgba(79, 157, 166, 0.1);
   border-radius: 5px;
+}
+.donate-item1:hover{
+  background-color: #ff5959;
+ 
 }
 .donate-item2 {
   width: 40%;
@@ -271,33 +296,36 @@ header {
 }
 
 .submit-btn {
-  margin-left: 25%;
+  margin-left: 30%;
   justify-content: center;
+
   width: 400px;
   box-shadow: #707070;
   padding: 20px;
   background: #fff4d6;
   border-radius: 5px;
   margin-bottom: 100px;
+  margin-top: 30px;
 }
 #btn-praimary {
   background: #ff5959;
   border-radius: 5px;
-  /* justify-content: center;
-    text-align: center;
-    margin-left: 50%; */
+  border-left: none;
   border: none;
   padding: 8px 30px;
   color: white;
   font-weight: 700;
-  border-radius: 5px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
 }
 #Email {
+  border-right: none;
   background: #d9d9d9;
   border-radius: 5px 0px 0px 5px;
-
-  padding: 5px 60px 5px 5px;
+  border-style: none;
+  margin-right: -10px;
+  padding: 8px 60px 8px 5px;
 }
+
 
 /* footer  */
 
